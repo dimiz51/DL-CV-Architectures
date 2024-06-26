@@ -5,7 +5,7 @@ EfficientNet is a family of convolutional neural networks (CNNs) introduced by G
 ![Compound scaling](./readme_images/compound%20scaling.png)
 
 ## Implementation
-This repository contains a from scratch implementation of the EfficientNet model with Squeeze-and-Excitation and MBConv blocks with skip connections. Recreated model has 5,288,548, which matches the original implementation (~5,3) and the EfficientNetB0 from `keras.applications`.
+This repository contains a from scratch implementation of the EfficientNet model with Squeeze-and-Excitation and MBConv blocks with skip connections. Recreated model has 5,288,548, which matches the original implementation (~5,3m) and the EfficientNetB0 from `keras.applications`.
 
 ## Testing the model
 To verify the solidity of the implementation the model was trained on the **CIFAR10 dataset from sratch** with a Cosine Decay Learning rate schedule, for 50 epochs with Early stopping.
