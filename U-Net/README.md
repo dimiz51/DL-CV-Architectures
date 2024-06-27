@@ -6,7 +6,7 @@ U-Net is a convolutional neural network architecture tailored for image segmenta
 - Expanding Path (Decoder): The expanding path employs transposed convolutions to upsample feature maps back to the original image resolution. Skip connections concatenate feature maps from the contracting path to the decoder, facilitating precise localization and maintaining fine-grained details.
 
 <p align="center">
-  <em>Fig. 1 U-net Architecture</em><br>
+  <br><strong>Fig. 1 U-net Architecture<br></strong>
   <img src="./readme_images/unet.png" alt="UNET" width="60%">
 </p>
 
@@ -18,10 +18,10 @@ To verify the solidity of the implementation the model was trained on the **Fire
 for 25 epochs with Early stopping. Additionally, the full model was finetuned for 10 more epochs. Some simple augmentations with KerasCV
 were also used.
 
-*Fig.2 Training Losses*
+**Fig.2 Training Losses**
 ![Losses](./readme_images/training.png)
 
-*Fig.2 Finetuning Losses*
+**Fig.2 Finetuning Losses**
 ![Losses](./readme_images/finetuning.png)
 
 ### Evaluation on test set
@@ -31,7 +31,7 @@ were also used.
 
 
 ## Some Predictions
-*Fig.3 Segmentation results on the test set*
+**Fig.3 Segmentation results on the test set**
 ![Predictions](./readme_images/predict1.png)
 ![Predictions2](./readme_images/predict2.png)
 
