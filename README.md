@@ -7,8 +7,8 @@ This repository contains various Deep Learning models and utility functions impl
 Currently, the following models are included in this repository:
 
 - **ViT** (Vision Transformer)
-- **U-Net** (fU-Net for image segmentation)
+- **U-Net** (U-Net for image segmentation)
 - **FOMO** (Fewer Objects, More Objects)
-- **EfficientNet** (Efficientnet backbone network)
+- **EfficientNet** (The well known EfficientNet backbone)
 - **ResNet** (Residual Networks)
 - **DCGAN** (Deep Convolutional Generative Adversarial Network)
