@@ -9,22 +9,22 @@ This lightning-fast model offers a unique approach to object detection by elimin
 ## Experiment results on the chess dataset
 For this experiment, we utilized the [chess pieces dataset](https://public.roboflow.com/object-detection/chess-full/) from Roboflow, which contains labeled images of all chess pieces on a chessboard. Our goal was to detect all chess pieces on the board using the FOMO model, focusing on both piece identification and localization.
 
-<div style="text-align: center;">
+<p align="center">
     <img src="readme_images/bounding_box.png" alt="Sample from dataset" width="400"/>
     <p><strong>Fig. 1:</strong> Sample from dataset</p>
-</div>
+</p>
 
 The first step was to convert bounding box style annotations to an object centroids representation in a 28x28 downlsampled grid.
 
-<div style="text-align: center;">
+<p align="center">
     <img src="readme_images/object_centers2.png" alt="Sample from dataset" width="400" style="display:inline-block; margin:10px;"/>
     <p><strong>Fig. 2:</strong> Conversion to centroid grid-styled representation</p>
-</div>
+</p>
 
 ## Results
 After training this simplistic model with a pre-trained MobilenetV2 backbone we get pretty impresive results considering the lightweight nature of the model.
 
-<div style="text-align: center;">
+<p align="center">
     <img src="readme_images/predictions_2.png" alt="Sample from dataset" width="400" style="display:inline-block; margin:10px;"/>
     <p><strong>Fig. 3:</strong> FOMO Object Detection predictions</p>
-</div>
+</p>
