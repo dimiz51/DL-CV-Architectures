@@ -11,14 +11,16 @@ For this experiment, we utilized the [chess pieces dataset](https://public.robof
 
 <p align="center">
     <img src="readme_images/bounding_box.png" alt="Sample from dataset" width="400"/>
-    <p><strong>Fig. 1:</strong> Sample from dataset</p>
+    <br>
+    <strong>Fig. 1: Sample from dataset</strong>
 </p>
 
 The first step was to convert bounding box style annotations to an object centroids representation in a 28x28 downlsampled grid.
 
 <p align="center">
     <img src="readme_images/object_centers2.png" alt="Sample from dataset" width="400" style="display:inline-block; margin:10px;"/>
-    <p><strong>Fig. 2:</strong> Conversion to centroid grid-styled representation</p>
+    <br>
+    <strong>Fig. 2: Conversion to centroid grid-styled representation</strong>
 </p>
 
 ## Results
@@ -26,5 +28,6 @@ After training this simplistic model with a pre-trained MobilenetV2 backbone we 
 
 <p align="center">
     <img src="readme_images/predictions_2.png" alt="Sample from dataset" width="400" style="display:inline-block; margin:10px;"/>
-    <p><strong>Fig. 3:</strong> FOMO Object Detection predictions</p>
+    <br>
+    <strong>Fig. 3: FOMO Object Detection predictions</stron>
 </p>
