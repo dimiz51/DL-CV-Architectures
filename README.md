@@ -1,4 +1,4 @@
-# Deep Learning (DL) Architectures
+# Deep Learning (DL) Architectures for Computer Vision
 
 This repository contains various Deep Learning models and utility functions implemented from scratch for different Computer Vision tasks using **Keras 3** and **TensorFlow**.
 
