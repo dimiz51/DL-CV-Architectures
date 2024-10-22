@@ -25,7 +25,7 @@ were also used.
 ![Losses](./readme_images/finetuning.png)
 
 ### Evaluation on test set
-| Dataset   | Accuracy (%) | Accuracy (%)  | Epoch |
+| Dataset   | Accuracy (%) | Binary IoU (%)  | Epoch |
 |-----------|--------------|-------|---------------|
 | Fire Dataset  | 93       | 88    |         25    |
 
