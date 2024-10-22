@@ -27,7 +27,7 @@ were also used.
 ### Evaluation on test set
 | Dataset   | Accuracy (%) | Binary IoU (%)  | Epoch |
 |-----------|--------------|-------|---------------|
-| Fire Dataset  | 93       | 88    |         25    |
+| Fire Dataset  | 93       | 88    |         15    |
 
 
 ## Some Predictions
